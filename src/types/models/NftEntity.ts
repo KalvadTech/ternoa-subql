@@ -32,8 +32,6 @@ export class NftEntity implements Entity {
 
     public creator: string;
 
-    public serieId: string;
-
 
     async save(): Promise<void>{
         let id = this.id;
